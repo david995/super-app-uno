@@ -1,3 +1,10 @@
+<?php
+
+$instancia=$_SERVER["WEBSITE_INSTANCE_ID"];
+
+echo $instancia;
+?>
+
 <!DOCTYPE html>
 <html>
 <head>
