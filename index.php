@@ -1,5 +1,5 @@
 <?php
-
+header("Arr-Disable-Session-Affinity",true);
 $instancia=$_SERVER["WEBSITE_INSTANCE_ID"];
 
 echo $instancia;
